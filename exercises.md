@@ -20,43 +20,86 @@ echo "rain evaluate recommend evaluate discover" > evaluate
 
 4: Output who the active user is.
 
+whoami
+
 5: Change directory to "cli_sandbox".
 
 6: Change directory to "cli_sandbox".
 
+cd ~/cli_sandbox
+
 7: Create a directory "needle" and then delete it.
+
+mkdir needle
+rmdir needle
 
 8: Delete the last folder you created.
 
+NOT POSSIBLE
+
 9: Write something in a file called "bay.txt".
+
+touch bay
+echo "text" > bay
 
 10: Change directory to "cli_sandbox".
 
+cd ~/cli_sandbox
+
 11: Create two directories "regret" and "plane" and move into "plane".
+
+mkdir -p regret plane
+cd plane
 
 12: Change directory to "cli_sandbox".
 
+cd ~/cli_sandbox
+
 13: Delete the last file you created.
+
+rmdir regret
 
 14: Open a file in the terminal and see the content.
 
+cat bay
+
 15: Output hidden files.
+
+ls -la
 
 16: Output who the active user is.
 
+whoami
+
 17: Open a file in the terminal and see the content.
+
+cat bay
 
 18: Delete the last file you created.
 
+rm bay
+
 19: Create a directory "surprise" and then delete it.
+
+mkdir surprise
+rmdir surprise
 
 20: Output what's in the directory.
 
+ls
+
 21: Open a file in the terminal and see the content.
+
+cat TestTxt
 
 22: Create a directory "regret" and then delete it.
 
+mkdir regret
+rmdir regret
+
 23: Output hidden files.
+
+ls -la
 
 24: Open a file in the terminal and see the content.
 
@@ -64,9 +107,16 @@ echo "rain evaluate recommend evaluate discover" > evaluate
 
 26: Open a file in the terminal and see the content.
 
+cat TestTxt
+
 27: Create a directory "shot" and then delete it.
 
+mkdir shot
+rmdir shot
+
 28: Delete the last folder you created.
+
+NOT POSSIBLE
 
 29: Use: echo "appreciate evaluate banish sister sister" > "on.txt" to create or overwrite "on.txt".
 
